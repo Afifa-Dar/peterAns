@@ -11,6 +11,8 @@ let finalAns: string | undefined
 
 let validPerson = false
 let magicStart: PetitionFcuncType
+
+
 const trick = () => {
     let init = -1
     let printPetion: PetitionFcuncType = (ind?: number) => {
@@ -43,6 +45,7 @@ const magic = (e: any) => {
     }
 
 }
+
 const showAnswer = () => {
     if (!validPerson) {
         finalAns = "You are not my boss"
@@ -61,13 +64,6 @@ const showAnswer = () => {
 
     document.getElementById('ans').classList.remove('hidden')
     document.getElementById('ans').innerHTML = finalAns
-
-
-
-
-
-
-
 
 }
 
